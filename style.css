@@ -1,3 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/static/Figtree-Medium.ttf)
+    format("Figtree-medium");
+    font-weight: 300 900;
+    font-stretch: 35% 100%;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Figtree-bold";
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf)
+    format("Figtree-bold");
+    font-weight: 300 900;
+    font-stretch: 35% 100%;
+    font-style: bold;
+    font-display: swap;
+}
+
 .attribution{
     color: blueviolet;
+}
+.learning{
+    font:
+        1.2em "Figtree-bold"
 }
