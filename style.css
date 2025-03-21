@@ -1,31 +1,112 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "Figtree-bold";
+  src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-weight: 300 900;
+  font-size: large;
+}
+@font-face {
+  font-family: "Figtree-medium";
+  src: url(./assets/fonts/static/Figtree-Medium.ttf);
+  font-weight: 300 900;
+  font-size: large;
 }
 
 @font-face {
-    font-family: "Figtree";
-    src: url(./assets/fonts/static/Figtree-Medium.ttf)
-    format("Figtree-medium");
-    font-weight: 300 900;
-    font-stretch: 35% 100%;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Figtree";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-weight: 300 900;
+  font-stretch: 35% 100%;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: "Figtree-bold";
-    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf)
-    format("Figtree-bold");
-    font-weight: 300 900;
-    font-stretch: 35% 100%;
-    font-style: bold;
-    font-display: swap;
+  font-family: "Figtree-Italic";
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf)
+    format("Figtree-Italic");
+  font-weight: 300 900;
+  font-stretch: 35% 100%;
+  font-style: italic;
+  font-display: swap;
 }
 
-.attribution{
-    color: blueviolet;
+.attribution {
+  color: blueviolet;
 }
-.learning{
-    font:
-        1.2em "Figtree-bold"
+.learning {
+  background-color: rgb(248, 206, 1);
+  border-radius: 3px;
+  text-align: center;
+  width: 5em;
+  font-family: "Figtree-bold";
+  font-size: smaller;
+  margin-top: 15px;
+  padding: 0.5em;
+}
+
+.card {
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  padding: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: azure;
+  border-radius: 15px;
+  border: solid 1px black;
+  box-shadow: 5px 5px black;
+  max-width: 17em;
+}
+
+.image {
+  border-radius: 10px;
+  max-width: 17em;
+}
+
+.contents{
+  text-align: left;
+  font-size: small;
+  font-weight: 100;
+  margin-top: 15px;
+  margin-left: 0;
+  padding-left: 0;
+  font-family: "Figtree";
+}
+
+h6 {
+  font-family: "Figtree-medium";
+  text-align: left;
+  font-size: small;
+  margin-top: 10px;
+}
+h1 {
+  font-family: "Figtree-bold";
+  font-size: larger;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+html {
+  background-color: rgb(248, 206, 1);
+}
+.footnote{
+  margin-top: 1.5em;
+  display: inline-flex;
+  float: left;
+  font-stretch: extra-expanded;
+}
+
+.footnote img{
+  width: 1.8em;
+  height: 1.8em;
+  margin-right: 0.5em;
+}
+.footnote p{
+  font-family: "Figtree-bold";
+  font-size: small;
+  padding-top: 0.5em;
 }
